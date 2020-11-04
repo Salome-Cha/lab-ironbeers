@@ -5,3 +5,166 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    color: white;
+    background-color: #2081c3;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color:  #0a2c42;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    padding-top: 10px
+    }
+
+h1 {
+    color: grey;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.home-button {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #2081c3;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #2081c3 ;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.flex-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-homepage {
+    margin-top: 30px;
+    width: 350px;
+}
+
+.beer-homepage{
+    display: flex;
+    justify-content: center;
+}
+
+.list-beer-card {
+    border: none;
+}
+
+.card-title-list-beer {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tagline {
+    color: #bfbfbf;
+    font-size: 12px;
+}
+
+#img-random-card {
+    width: auto;
+    height:300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h5 {
+font-size: 18px;
+font-weight: 600;
+}
+
+h4{
+font-weight: 600;
+font-size: 14px;
+}
+
+
+.card-text {
+    font-size: 12px;
+}
+
+
+#beer-card-wrap-image{
+    height: 160px;
+}
+
+.card-img-top{
+    width: auto;
+    position: relative;
+    left: 35%;
+    height: 160px;
+}
+
+.col-md-4 {
+    
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-body {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: raw;
+}
+
+#random-tagline {
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text-random-beer{
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#random-food {
+    font-size: 12px;
+}
+
+#random-tips {
+    font-size: 12px;
+}
+
+.col-md-8 {
+    margin-top: 50px;
+}
+
+#random-name {
+    margin-bottom: 30px;
+}
